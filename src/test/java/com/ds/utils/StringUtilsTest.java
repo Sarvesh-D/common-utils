@@ -41,4 +41,9 @@ public class StringUtilsTest {
         assertEquals(EMPTY, multiply(EMPTY, 5));
     }
 
+    @Test(expected = UnsupportedOperationException.class)
+    public final void callingDifferenceShouldThrowUnsupportedOperationException() {
+        StringUtils4.difference("AA", "BB");
+    }
+
 }
