@@ -10,8 +10,11 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 /**
- * @author Sarvesh
- *
+ * Utility class to deal with {@link Object}
+ * 
+ * @author Sarvesh Dubey <https://github.com/Sarvesh-D/>
+ * @since 16 Jun 2018
+ * @version 1.0
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ObjectUtils {

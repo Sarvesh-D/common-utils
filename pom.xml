@@ -2,17 +2,37 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>com.ds.utils</groupId>
 	<artifactId>common-utils</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
 	<name>Library for additional common utility functions</name>
+	<description>More common utilities in addition to ones provided by apache commons-lang.</description>
+	<url>https://github.com/Sarvesh-D/common-utils</url>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
 
 	<developers>
 		<developer>
 			<name>Sarvesh Dubey</name>
 			<email>sarvesh.dubey@hotmail.com</email>
+			<organization>self</organization>
+			<organizationUrl>https://github.com/Sarvesh-D/</organizationUrl>
 		</developer>
 	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/Sarvesh-D/common-utils.git</connection>
+		<developerConnection>scm:git:ssh://github.com:Sarvesh-D/common-utils.git</developerConnection>
+		<url>http://github.com/Sarvesh-D/common-utils/tree/master</url>
+	</scm>
 
 	<build>
 		<plugins>
@@ -119,5 +139,4 @@
 		</dependency>
 	</dependencies>
 
-	<description>More common utilities in addition to ones provided by apache commons-lang.</description>
 </project>
