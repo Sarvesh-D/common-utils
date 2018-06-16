@@ -60,7 +60,7 @@ public class MapUtils {
     }
 
     private static String row(final int colWidth, final Entry<Object, Object> entry, final boolean colBorder) {
-        return StringUtils.join(col(colWidth, entry.getKey(), colBorder), col(colWidth, entry.getValue(), colBorder));
+        return StringUtils.join(col(colWidth, entry.getKey(), colBorder), StringUtils4.SPACE, col(colWidth, entry.getValue(), colBorder));
     }
 
     private static String col(final int colWidth, final Object value, final boolean colBorder) {

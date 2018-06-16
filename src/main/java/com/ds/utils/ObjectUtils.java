@@ -6,9 +6,6 @@ package com.ds.utils;
 import java.util.Arrays;
 import java.util.function.Function;
 
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
-
 /**
  * Utility class to deal with {@link Object}
  * 
@@ -16,8 +13,10 @@ import lombok.NoArgsConstructor;
  * @since 16 Jun 2018
  * @version 1.0
  */
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class ObjectUtils {
+
+    private ObjectUtils() {
+    }
 
     public static final Function<Object[], String> arrayInfo = Arrays::toString;
 
