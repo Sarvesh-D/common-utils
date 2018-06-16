@@ -8,7 +8,7 @@ import java.util.function.Function;
 
 /**
  * Utility class to deal with {@link Object}
- * 
+ *
  * @author Sarvesh Dubey <https://github.com/Sarvesh-D/>
  * @since 16 Jun 2018
  * @version 1.0
