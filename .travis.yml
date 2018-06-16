@@ -6,7 +6,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn clean build
+  - mvn clean package
   - mvn cobertura:cobertura
 
 cache:
